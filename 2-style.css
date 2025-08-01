@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+  color: #fffbfb;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: rgb(3, 28, 36);
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px black;
+}
+
+.tanım {
+  color: rgb(226, 214, 198);
+  text-shadow: 2px 2px 3px yellow;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+
+a {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+.dialog {
+  color: #e40000ea;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title {
+  text-shadow: 4px 5px 3px red;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+}
+
+.quotation2 {
+  text-align: end;
+  text-shadow: 7pz 8pz 4pz white ;
+  font-size: 20px;
+
+}
